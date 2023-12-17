@@ -1,0 +1,7 @@
+- "Can..." = reacts on outside interaction (controller-input, other object-collider, etc.)
+- "Will..." = acts on their own (time of action described in name)
+	- "...at start" = acts at start of the scene
+
+Exceptions:
+- "PlayerBehaviour" = manages attributes, spawnpoints, etc. and reacts on met criteria
+	- does not include controlling the player itself
